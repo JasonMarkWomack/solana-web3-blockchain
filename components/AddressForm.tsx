@@ -34,7 +34,7 @@ function AddressForm(props: { handler: (address: string) => void }) {
         />
         <br />
         <button type="submit" className={styles.formButton}>
-          Check SOL Balance
+          Check Balance
         </button>
       </form>
     </div>

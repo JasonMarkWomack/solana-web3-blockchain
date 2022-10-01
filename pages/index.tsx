@@ -18,8 +18,7 @@ const Home: NextPage = () => {
     <div className={styles.App}>
       <header className={styles.AppHeader}>
         <p>
-          Start Your Solana Journey
-        </p>
+Dev Life!        </p>
         <AddressForm handler={addressSubmittedHandler} />
         <p>{`Address: ${address}`}</p>
         <p>{`Balance: ${balance} SOL`}</p>
